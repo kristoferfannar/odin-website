@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,200&display=swap');
 
 body {
     font-family: Roboto;
@@ -150,4 +150,24 @@ ul {
     font-size: 16px;
     font-weight: 400;
     color: #1F2937;
+}
+
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 200px 60px;
+}
+
+.quote .text {
+    text-align: justify;
+    font-size: 34px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote .name {
+    text-align: right;
 }
