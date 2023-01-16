@@ -203,3 +203,11 @@ ul {
 .action-box .sign-up {
     border: 2px solid #E5E7EB;
 }
+
+/* FOOTER */
+
+.footer {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 40px;
+}
